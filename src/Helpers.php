@@ -100,6 +100,9 @@ class Helpers
         if(isset($popularTime[84][6]))
             $time['now'] = $popularTime[84][6];
 
+        if(isset($popularTime[84][7]))
+            $time['now'] = $popularTime[84][7];
+
         if(isset($popularTime[117][0]))
             $time['time_spent'] = $popularTime[117][0];
         
